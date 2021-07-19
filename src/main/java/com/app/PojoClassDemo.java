@@ -7,7 +7,14 @@ public class PojoClassDemo {
 	String name;
 	String email;
 	float pnumber;
+	int dob;
 	
+	public int getDob() {
+		return dob;
+	}
+	public void setDob(int dob) {
+		this.dob = dob;
+	}
 	public int getId() {
 		return id;
 	}
